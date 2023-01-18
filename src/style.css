@@ -14,6 +14,7 @@ main{
     display: flex;
     max-width: 1200px;
     margin: 0 auto;
+    margin-bottom: 30px;
 }
 .menu{
     display: flex;
@@ -57,13 +58,19 @@ main{
     justify-content: end;
     align-items: center;
     flex-direction: column;
-    width: 242px;
-    height: 486px;
+    width: 260px;
+    height: 350px;
     gap: 15px;
     margin-bottom: 16px;
+    border: #4C6EF5 solid 1px;
+    border-radius: 6px;
+    padding-bottom: 10px;
+    text-align: center;
+
 }
 img{
-    max-width: 100%;
+    max-width: 150px;
+    object-fit: contain;
 }
 .produtos form input{
     background-color: #4C6EF5;
@@ -73,4 +80,8 @@ img{
     width: 200px;
     height: 30px;
     margin: 0 auto;
+}
+
+.imgDivPai{
+    object-fit: contain;
 }
